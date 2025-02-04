@@ -1,7 +1,7 @@
 # import gdown
 
 # # Replace with your Google Drive file ID
-# file_id = "1B1jZ1sTz3XCwkTiF6zXJmgzKQhE6yUkx"
+# file_id = "15VdFsCglzw_mDNLx7Pdcmp01pjarpIHH"
 # url = f"https://drive.google.com/uc?id={file_id}"
 # output = "model.zip"
 # gdown.download(url, output, quiet=False)
