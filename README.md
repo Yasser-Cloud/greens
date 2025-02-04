@@ -76,3 +76,8 @@ You can check out the live application here:
 🔗 [**Greens Classifier on Hugging Face**](https://huggingface.co/spaces/Mahmoud22/Greens)  
 
 ![deploy](deploy.png)
+
+``` shell
+# magic command to solve deployment problem just for notes 
+! python3.8 -m venv myenv && source myenv/bin/activate && pip install fastai gradio && pip freeze > requirements.txt
+```
