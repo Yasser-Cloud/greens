@@ -75,4 +75,4 @@ I am deploying Greens Classifier on Hugging Face Spaces to make it accessible to
 You can check out the live application here:
 🔗 [**Greens Classifier on Hugging Face**](https://huggingface.co/spaces/Mahmoud22/Greens)  
 
-    ⚠ Note: The deployment is still in progress. Stay tuned for updates!
+![deploy](deploy.png)
