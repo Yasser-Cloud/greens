@@ -2,6 +2,7 @@ import gdown
 
 
 # to download my training covnext model
+
 # file_id = "15VdFsCglzw_mDNLx7Pdcmp01pjarpIHH"
 # url = f"https://drive.google.com/uc?id={file_id}"
 # output = "model.zip"
