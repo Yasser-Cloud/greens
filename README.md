@@ -37,6 +37,19 @@ chmod 600 kaggle.json
 kaggle datasets download -d mahmoudyasser/green-herbs
 unzip green-herbs.zip
 ```
+## To download my training covnext model
+``` shell
+import gdown
+file_id = "15VdFsCglzw_mDNLx7Pdcmp01pjarpIHH"
+url = f"https://drive.google.com/uc?id={file_id}"
+output = "model.zip"
+gdown.download(url, output, quiet=False)
+```
+``` shell
+# then run in terminal
+
+unzip model.zip
+```
 
 ## Install run app
 ``` shell
@@ -52,3 +65,11 @@ docker build -t greens-classifier .
 docker run -p 7860:7860 greens-classifier
 ```
 
+## 🚀 Deployment
+
+I am deploying Greens Classifier on Hugging Face Spaces to make it accessible to everyone! 🌿✨
+
+You can check out the live application here:
+🔗 [**Greens Classifier on Hugging Face**](https://huggingface.co/spaces/Mahmoud22/Greens?logs=container)  
+
+    ⚠ Note: The deployment is still in progress. Stay tuned for updates!
