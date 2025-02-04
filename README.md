@@ -1,8 +1,10 @@
 # Greens
 
-## Problem Description:
+## Problem Description
 
-This project analyzes Kickstarter data to help aspiring entrepreneurs and creators successfully launch their projects or startups. It provides valuable insights into what makes a campaign successful, offering guidance on effective marketing strategies and practical recommendations for optimizing campaigns. By understanding key factors like funding goals, campaign duration, and timing, this project empowers users to make informed decisions and maximize their chances of achieving their goals.
+Many young people struggle to distinguish between common greens like Dill, Parsley, Coriander, and Watercress, often feeling shy to ask. Misidentifying them can lead to cooking mishaps or even dietary mistakes.
+
+Greens Classifier is here to help! 📸✨ Just snap a picture, and our model will instantly tell you what green it is. No more confusion—just fun, learning, and perfectly seasoned dishes!
 ## Objective:
 
 Build a machine learning model to predict campaign success, explore key success factors, and provide actionable insights for creators.
