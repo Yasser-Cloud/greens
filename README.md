@@ -1,5 +1,8 @@
 # Greens
 
+![Greens Classifier UI](greens_classifier_ui.png)
+
+
 ## Problem Description
 
 Many young people struggle to distinguish between common greens like Dill, Parsley, Coriander, and Watercress, often feeling shy to ask. Misidentifying them can lead to cooking mishaps or even dietary mistakes.
