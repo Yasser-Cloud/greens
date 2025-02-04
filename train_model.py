@@ -14,7 +14,7 @@ dls = DataBlock(
     get_y=parent_label,               
     item_tfms=Resize(224, method='squish'),              # Resize images to 224x224
     batch_tfms=aug_transforms(max_rotate=30, max_zoom=1.5, max_lighting=0.2)         # Apply data augmentation
-).dataloaders(path, bs=16)              # Create DataLoaders with batch size 32
+).dataloaders(path, bs=16)              # Create DataLoaders with batch size 16
 
 
 
