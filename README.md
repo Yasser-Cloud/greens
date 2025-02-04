@@ -31,6 +31,10 @@ kaggle datasets download -d mahmoudyasser/green-herbs
 unzip green-herbs.zip
 ```
 
+## Install
+``` shell
+pip install -r requirements.txt 
+```
 ## Run app
 
 ``` shell
