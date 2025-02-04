@@ -27,7 +27,7 @@ learn = vision_learner(
 # Add EarlyStoppingCallback and SaveModelCallback
 cbs = [
     EarlyStoppingCallback(monitor='valid_loss', patience=5),  # Stop training if validation loss doesn't improve for 5 epochs
-    SaveModelCallback(monitor='valid_loss', fname='best_model')  # Save the best model based on validation loss
+    SaveModelCallback(monitor='valid_loss', fname='convnext')  # Save the best model based on validation loss
 ]
 # Train the model
 learn.fine_tune(epochs=20,cbs=cbs,base_lr=  0.001737800776027143)
