@@ -38,14 +38,15 @@ kaggle datasets download -d mahmoudyasser/green-herbs
 unzip green-herbs.zip
 ```
 
-## Install
+## Install run app
 ``` shell
-pip install -r requirements.txt 
+pip install -r requirements.txt
+python app.py
 ```
-## Run app
+## Run docker app
 
 ``` shell
-docker build -t kickstart-app .
-docker run -it -p 9696:9696 kickstart-app:latest
+docker build -t greens-classifier .
+docker run -p 7860:7860 greens-classifier
 ```
 
