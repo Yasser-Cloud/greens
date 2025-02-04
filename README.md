@@ -1,4 +1,4 @@
-# greens
+# Greens
 
 ## Problem Description:
 
