@@ -32,7 +32,7 @@ iface = gr.Interface(
     fn=predict,
     inputs="image",
     outputs="label",
-    title="ConvNeXt Model with FastAI",
+    title="Greens classifier",
     description="Upload an image to classify using the ConvNeXt model."
 )
 
