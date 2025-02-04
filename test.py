@@ -34,7 +34,7 @@ iface = gr.Interface(
     inputs="image",
     outputs="label",
     title="Greens classifier",
-    description="Upload an image to classify using the ConvNeXt model."
+    description="Dill, Parsley, Coriander or Watercress?"
 )
 
 iface.launch()
