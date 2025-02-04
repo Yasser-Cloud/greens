@@ -43,6 +43,8 @@ unzip green-herbs.zip
 pip install -r requirements.txt
 python app.py
 ```
+![Greens Classifier](green_result2.png)
+
 ## Run docker app
 
 ``` shell
